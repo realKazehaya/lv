@@ -14,5 +14,33 @@
     <p>Te amo con todo mi corazón, Xiomara. Eres la mujer de mis sueños, la que llena mi vida de amor, de risas y de ternura. Imagino a nuestros futuros hijos corriendo a tu alrededor, riendo y jugando, y sé que serás la mejor madre que puedan tener. Quiero envejecer a tu lado, ver cómo carbón y todas las mascotas que tengamos envejezcan como nosotros y nuestros rostros se llenan de arrugas, pero siempre con la misma chispa de amor en nuestros ojos.Eres la razón por la que me levanto cada mañana con una sonrisa, la que me da fuerzas para seguir adelante. Eres mi cielo, mi estrella, mi universo. Contigo a mi lado, siento que puedo lograr todo lo que me proponga junto a ti. Te amo por tu belleza, por tu inteligencia, por tu fortaleza, por tu bondad. Te amo por ser tú, por ser la mujer que tú eres. Quiero pasar el resto de mi vida a tu lado, construyendo un futuro lleno de amor, de felicidad y de aventuras. Eres mi todo, Xiomara, y te prometo que haré todo lo posible para ser el hombre que mereces.</p>
     <p></p>
   </div>
+
+  <audio controls>
+  <source src="archivo.mp3" type="audio/mp3">
+  Tu navegador no soporta el elemento de audio.
+</audio>
+
+<script src="https://cdn.jsdelivr.net/npm/plyr@3.6.10/dist/plyr.js"></script>
+<div class="plyr__video-embed">
+  <audio controls>
+    <source src="archivo.mp3" type="audio/mp3">
+  </audio>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var audio = document.getElementById("audio");
+    audio.play();
+  });
+</script>
+
+<script>
+  var audio = document.createElement("audio");
+  audio.src = "archivo.mp3";
+  audio.controls = true;
+  document.body.appendChild(audio);
+  audio.play();
+</script>
+  
 </body>
 </html>
