@@ -16,13 +16,13 @@
   </div>
   <script src="https://cdn.jsdelivr.net/npm/plyr@3.6.10/dist/plyr.js"></script>
   <div class="plyr__video-embed">
-    <audio id="my-audio" src="archivo.mp3" type="audio/mp3"></audio>
+    <audio id="my-audio" src="archivo.mp3" type="audio/mp3" autoplay></audio>
   
   <script>
     const playButton = document.getElementById('play-button');
     const audio = document.getElementById('my-audio');
 
-    playButton.addEventListener('click', () => {
+    playButton.addEventListener('touchstart', () => {
       audio.play();
     });
   </script>
