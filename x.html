@@ -15,32 +15,12 @@
     <p></p>
   </div>
 
-  <audio controls>
-  <source src="archivo.mp3" type="audio/mp3">
-  Tu navegador no soporta el elemento de audio.
-</audio>
-
 <script src="https://cdn.jsdelivr.net/npm/plyr@3.6.10/dist/plyr.js"></script>
 <div class="plyr__video-embed">
   <audio controls>
     <source src="archivo.mp3" type="audio/mp3">
   </audio>
 </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var audio = document.getElementById("audio");
-    audio.play();
-  });
-</script>
-
-<script>
-  var audio = document.createElement("audio");
-  audio.src = "archivo.mp3";
-  audio.controls = true;
-  document.body.appendChild(audio);
-  audio.play();
-</script>
   
 </body>
 </html>
