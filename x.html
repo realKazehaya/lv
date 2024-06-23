@@ -15,11 +15,13 @@
     <p></p>
   </div>
 
-<script src="https://cdn.jsdelivr.net/npm/plyr@3.6.10/dist/plyr.js"></script>
-<div class="plyr__video-embed">
-  <audio controls>
-    <source src="archivo.mp3" type="audio/mp3">
-  </audio>
+<audio id="my-audio" src="archivo.mp3"></audio>
+
+<script>
+  window.onload = function() {
+    document.getElementById('my-audio').play();
+  };
+</script>
 </div>
   
 </body>
