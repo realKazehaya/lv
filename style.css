@@ -211,3 +211,25 @@ body {
   margin-top: 20px;
   cursor: pointer;
 }
+.center {
+  text-align: center;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.top a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.top a:hover {
+  color: #3e8e41;
+}
